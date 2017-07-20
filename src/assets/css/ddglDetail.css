@@ -1,0 +1,255 @@
+.rowRight dl dt p{
+    float: left;
+    color: #999999;
+    font-size: 14px;
+    text-indent: 10px;
+}
+.rowRight dl dt p.time{
+    width: 25%;
+}
+.rowRight dl dt p.jine{
+    width: 25%;
+}
+.rowRight dl dt p.xiangmu{
+    width: 32%;
+}
+.rowRight dl dt p.leixing{
+    width: 26%;
+}
+.rowRight dl dt p.state{
+    width: 10%;
+    text-indent: inherit;
+    text-align: center;
+}
+.rowRight dl dd p.timeCon {
+    width: 25%;
+}
+.rowRight dl dd p.jineCon {
+    width: 25%;
+    color: #333;
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 29%;
+}
+.rowRight dl dd p.leixingCon {
+    width: 18%;
+}
+.rowRight dl dd p.stateCon{
+    width: 19%;
+    +width: 17% !important;
+    color: #02adea;
+    text-align: left;
+}
+.rowRight dl dd p.stateCon span.n1{
+    color: #333333;
+}
+.rowRight dl dd p.stateCon span.n2{
+    color: #ee2444;
+}
+.topMenu p{
+    float: right;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.topMenu p span{
+    color: #ff8574;
+    font-size: 24px;
+}
+.topMenu1{
+    margin-left: 20px;
+    width:800px;
+    height: 50px;
+    border-bottom: solid #02ADEA 1px;
+    margin-top: 5px;  
+    line-height: 50px; 
+}
+.topMenu1 h4{
+    float: left;
+    color: #333333;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.topMenu1 p{
+    float: right;
+    
+}
+.topMenu1 p a{
+    font-size: 18px;
+    color: #02adea;
+}
+.titDetail{
+    margin-left: 20px;
+    width:800px;
+    overflow: hidden;
+}
+.project{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.project .proName{
+    min-width: 200px;
+    max-width: 400px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    overflow: hidden;
+    color: #333333;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.project .proState{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #ee2444;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.proInfo{
+    width: 820px;
+    height: 90px;
+    background: #50CAF5;
+    margin-top: 15px;
+    color: #fff;
+}
+.column1{
+    width: 190px;
+    float: left;
+    margin-left: 20px;
+    height: 70px;
+    border-right: solid #fff 1px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.proTime{
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.orderNum{
+    
+    margin-top: 5px;
+    font-size: 14px;
+}
+.orderNum em{
+    width: 45px;
+    float: left;
+    display: block;
+}
+.orderNum i{
+    width: 140px;
+    height: 40px;
+    line-height: 18px;
+    float: left;
+    display: block;
+    table-layout:fixed; word-break: break-all; overflow:hidden;
+}
+.column2{
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+    height: 70px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.columnTit{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.amountMoney{
+    margin-top: 5px;
+    font-size: 24px;
+}
+.column3{
+    width: 180px;
+    float: left;
+    margin-left: 0px;
+    height: 70px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.interest{
+    margin-top: 5px;
+    position: relative;
+}
+.interest i{
+    font-size: 24px;
+    color: #fff;
+    height: 60px;
+    width: 100px;
+}
+.interest em{
+    font-size: 18px;
+    color: #fff;
+}
+.icon{
+    background: url(../images/icon1.png) no-repeat center center;
+    width: 36px;
+    height: 18px;
+    position: absolute;
+    top: -6px;
+    left: 95px;
+}
+.column4{
+    width: 160px;
+    float: left;
+    margin-left: 0px;
+    height: 70px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.marDiv{
+    width: 400px;
+    margin-left: 280px;
+}
+.paid{
+    overflow: hidden;
+    margin-top: 60px;
+}
+.paid .k1{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #02ADEA;
+    border-radius: 5px;
+}
+.paid .nopaiding{
+	 background: #ccc;
+	 color: #333;
+}
+.paid .k2{
+    display: block;
+    float: left;
+    color: #02ADEA;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.paid .NoOrder{
+	color: #ccc;
+}
+.timeTit{
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.countDown{
+    width: 170px;
+    margin-left: 70px;
+    text-align: center;
+    color: #ff8574;
+    font-size: 48px; 
+    margin-top: 5px;
+}

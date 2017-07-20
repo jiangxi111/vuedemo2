@@ -1,0 +1,62 @@
+.downDiv{
+	 width: 1010px;
+    margin: 10px auto 20px;
+    font-size: 16px;
+    position: relative;
+
+}
+.downDiv a{
+	color: #02adea;
+	margin-right: 20px;
+}
+.contract_zhang{
+	float: right;
+	margin-top: -100px;
+}
+.hoverNone{
+	position: absolute;
+	top:30px;
+	left:60px;
+	height: 30px;
+	width: 200px;
+	background: #02adea;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	display: none;
+}
+.contract_code{
+	float: right;
+	margin-right: 20px;
+}
+.hetong{
+    width: 1010px;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 10px 30px 30px;
+    border:solid 1px #e1e2e3;
+    font-size: 14px;
+    background: url(../images/pingpu.png);
+}
+.hetong h3.tit{
+    line-height: 50px;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+}
+.hetong p{
+    margin-top: 15px;
+}
+.hetong .n1{
+    color: #333;
+    margin-top: 10px;
+}
+.hetong .n2{
+    text-indent: 30px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.hetong .n3{
+    color: #333;
+    line-height: 30px;
+}

@@ -1,0 +1,92 @@
+.rowRight dl dt p.time{
+    width: 26%;
+
+}
+.rowRight dl dt p.jine{
+    width: 36%;
+}
+.rowRight dl dt p.leixing{
+    width: 17%;
+    text-align: center;
+}
+.rowRight dl dt p.xiangmu {
+    width: 15%;
+    text-align: center;
+    float: right;
+}
+.rowRight dl dt p.state{
+    width: 14%;
+    +width: 13% !important;
+    float: right;
+}
+.rowRight dl dd p.timeCon {
+    width: 36%;
+    color: #02adea;
+}
+.rowRight dl dd p.timeCon a{
+    color: #02adea;
+}
+.rowRight dl dd p.jineCon {
+    width: 26%;
+    color: #333;
+
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 20%;
+}
+.rowRight dl dd p.leixingCon {
+    width: 17%;
+    text-align: center
+}
+.rowRight dl dd p.stateCon{
+    width: 15%;
+    +width: 14% !important;
+    float: right;
+    
+}
+.rowRight dl dd p.state{
+	 width: 14%;
+    text-align: center;
+    float: right;
+}
+.styleDiv{
+    width: 820px;
+    height: 90px;
+    background: #50CAF5;
+    margin: 20px auto 10px;
+}
+.priceBox{
+	float: right;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 
+}
+.styleDiv i.radisus{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+.styleDiv .styleName{
+    float: left;
+    margin-left: 10px;
+    margin-top: 31px;
+    font-size: 18px;
+    color: #fff;
+}
+.styleDiv .stylePrice{
+    float: right;
+    margin-right:4px;
+    margin-top: 28px;
+    font-size: 30px;
+    color: #fff;
+}
+.styleDiv .stylePrice em{
+    font-size: 18px;
+}

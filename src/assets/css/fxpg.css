@@ -1,0 +1,170 @@
+.topMenu h3{
+    float: left;
+    margin-top: 10px;
+    color: #333333;
+    font-size: 18px;
+     margin-left: 10px;
+}
+.topMenu p{
+    float: left;
+    color: #999999;
+    font-size: 14px;
+    margin-left: 20px;
+     margin-top: 14px;
+}
+.fxpgCon,.pgbgCon{
+    width: 800px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.fxpgCon ul li{
+    overflow: hidden;
+    width: 100%;
+    border-bottom:dashed #dcdcdc 1px;
+    padding: 30px 20px;
+}
+.fxpgCon ul li p.wenti{
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.selQuest1{
+    float: left;
+    overflow: hidden;
+    width: 190px;
+}
+.selQuest2{
+   
+    overflow: hidden;
+   
+}
+.textRadioCom{
+    margin-left: 10px;
+}
+.RadioDivCom {
+    line-height: 20px;
+}
+.textRadioCom {
+    color: #666;
+    font-size: 14px;
+}
+.styleRadio2{
+    float: left;
+    margin-top: 15px;
+}
+.fxpgCon ul li .img2{
+    float: left;
+    margin-left: 10px;
+}
+.subForm{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0px auto;
+    cursor: pointer;
+    background: #02adea;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.negli{
+    float: left;
+    margin-left: 30px;
+    width: 168px;
+    height: 170px;
+    background: url(../images/bg1.png) no-repeat;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.negli .sty{
+    margin-top: 80px;
+    font-size: 24px;
+    color: #02adea;
+}
+.congxin{
+    width: 540px;
+    float: right;
+    margin-right: 20px;
+    overflow: hidden;
+     margin-top: 100px;
+}
+.congxin p{
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+}
+.congxin .bt{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0px auto;
+    cursor: pointer;
+    background: #02adea;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.congxin .bt1{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0px auto;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.neirong{
+    width: 825px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-top: dashed  1px #dcdcdc;
+    padding: 0px 20px;
+}
+.neirong h3{
+    margin-top: 20px;
+    color: #333333;
+}
+.neirong p{
+    color: #666666;
+    margin-top: 10px;
+    line-height: 25px;
+}
+#pop {
+    background: #fff;
+    display: none;
+    height: 300px;
+    position: fixed !important;
+    top: 10%;
+    width: 500px;
+    z-index: 100001;
+}
+
+ul.popUl1 {
+   width: 80%;
+    margin: 35px auto 0px;
+    font-size: 14px;
+    color: #333;
+}
+.queding {
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0px;
+}

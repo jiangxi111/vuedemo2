@@ -1,0 +1,97 @@
+.topMenu h3{
+    line-height: 40px;
+    margin-left: 20px;
+    color: #333333;
+    font-size: 18px;
+    float: left;
+}
+.rightNews{
+  
+    width: 190px;
+    text-align: right;
+    margin-top: 15px;
+}
+.rightNews span{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #02adea;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.rowRight dl dt p.jine {
+    width: 25%;
+}
+.rowRight dl dt p.leixing{
+    width: 54%;
+}
+.rowRight dl dt p.xiangmu {
+    width: 20%;
+}
+.rowRight dl dd p.timeCon {
+    width: 25%;
+}
+.rowRight dl dd p.jineCon{
+    width: 54%;
+    +width: 50% !important;
+    color: #666666;
+    text-align: left;
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 20%;
+    display:table-cell; /* 模拟表格法*/
+vertical-align:middle;
+height: auto; 
+}
+
+.rowRight dl dd p.timeCon span{
+    max-width:90%;
+    float: left;
+    margin-left: 3px;
+    color: #333333;
+}
+.rowRight dl dd p.timeCon i{
+    width:6px;
+    height: 6px;
+    display: block;
+    background: url(../images/dian.png) no-repeat top right;
+    float: left;
+}
+.rowRight dl dd p.timeCon em{
+     width:6px;
+    height: 6px;
+    display: block;
+    float: left;
+}
+.topMenu .noDt{
+    width:6px;
+    height: 6px;
+    display: block;
+    background: url(../images/dian.png) no-repeat top right;
+    position: absolute;
+    top: 14px;
+    left: 180px;
+}
+.rowRight dl dd {
+    cursor: pointer;
+    border-bottom: 1px dashed #dcdcdc;
+    height: auto;
+    line-height: normal;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.rowRight dl dd p {
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;   
+    overflow: hidden;
+    text-indent: inherit;
+    padding-left: 10px;
+}
+.rowRight dl dd p.colorP{
+    color: #333;
+}

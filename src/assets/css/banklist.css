@@ -1,0 +1,315 @@
+
+.contar{
+    margin: 20px auto;
+    overflow: hidden;
+    width: 1010px;
+    height: auto;
+    border: solid #DCDCDC 1px;
+    min-height: 500px;
+    padding-bottom: 30px;
+    background: #fff;
+}
+.tit{
+    margin-left: 20px;
+}
+.kahaoMar{
+    border-bottom:dashed #ccc 1px;
+    margin: 30px auto 10px;
+    padding-bottom:30px;
+    width: 974px;   
+}
+.kahaoDiv{
+    width: 390px;
+    margin: 0px auto;    
+    overflow: hidden;	
+}
+.kahaoDiv p{
+    float: left;
+    font-size: 14px;
+    color: #7d7d7d;    
+    line-height: 40px;
+}
+.kahaoDiv .kahaoInput{
+    display: block;
+    float: right;
+    width: 300px;
+    height: 40px;   
+  	padding-left:10px;
+    color: #02adea;
+    font-size: 20px;
+    border:solid #E1E1E1 1px;
+}
+.bangkaDiv{
+    width: 1006px;
+    min-height: 200px;    
+    margin-top: 20px;   
+    overflow: hidden;
+}
+.fangsi{
+    width: 965px;
+    margin-left: 39px;   
+    height: 50px;
+    line-height: 50px;
+}
+.fangsi p{
+    float: left;
+    font-size: 14px;
+    color: #7d7d7d; 
+    margin-right: 30px;  
+}
+.fangsi label{
+    float: left;
+    font-size: 14px;
+    color: #b6b6b8;  
+    font-style: normal;
+    margin-left: 25px;
+    margin-right: 20px;
+    cursor: pointer; 
+}
+.fangsi label input{
+    margin-right: 5px;
+}
+.bangListDiv{
+    margin-left: 39px;
+}
+.bangListDiv .bank{
+    clear: both;
+    overflow: hidden;
+}
+.bangListDiv .sec{
+    display: none;
+}
+.bank ul{
+    height: 200px;
+    overflow: hidden;
+}
+.bangListDiv ul li{
+    float: left;
+    margin: 12px 10px;
+    cursor: pointer;
+}
+.bangListDiv ul li label{
+    cursor: pointer;
+    overflow: hidden;
+}
+.bangListDiv ul li input{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    color: #ccc;
+    cursor: pointer;
+}
+.bank ul li i{
+    display: block;
+    float: left;
+    font-style: normal;
+    width: 179px;
+    padding: 5px 0px;
+    margin-left: 9px;
+    cursor: pointer;
+    border: solid #dcdcdc 2px; 
+    
+}
+.bank ul li i img{
+    height: 30px;
+}
+.bank ul li i.click{
+    border:solid #02ADEA 2px;
+}
+
+.beizhu{
+    padding: 5px 5px;
+}
+
+.zgyh{
+    background: url(../images/sdbbang.png) no-repeat 0px 0px;
+}
+.jsyh{
+    background: url(../images/sdbbang.png) no-repeat -222px 0px;
+}
+.nyyh{
+    background: url(../images/sdbbang.png) no-repeat -445px 0px;
+}
+.msyh{
+    background: url(../images/sdbbang.png) no-repeat -668px 0px;
+}
+.yzcx{
+    background: url(../images/sdbbang.png) no-repeat 0px -57px;
+}
+.gsyh{
+    background: url(../images/sdbbang.png) no-repeat -222px -57px;
+}
+.zaosyh{
+    background: url(../images/sdbbang.png) no-repeat -445px -57px;
+}
+.pfyh{
+    background: url(../images/sdbbang.png) no-repeat -668px -57px;
+}
+.gfyh{
+    background: url(../images/sdbbang.png) no-repeat 0px -115px;
+}
+.gdyh{
+    background: url(../images/sdbbang.png) no-repeat -222px -115px;
+}
+.xyyh{
+    background: url(../images/sdbbang.png) no-repeat -445px -115px;
+}
+.hxyh{
+    background: url(../images/sdbbang.png) no-repeat -668px -115px;
+}
+.zsyh{
+    background: url(../images/sdbbang.png) no-repeat 0px -174px;
+}
+.zxyh{
+    background: url(../images/sdbbang.png) no-repeat -222px -174px;
+}
+.payh{
+    background: url(../images/sdbbang.png) no-repeat -445px -174px;
+}
+.jtyh{
+    background: url(../images/sdbbang.png) no-repeat -668px -174px;
+}
+.hbyh{
+    background: url(../images/sdbbang.png) no-repeat 0px -232px;
+}
+.lzyh{
+    background: url(../images/sdbbang.png) no-repeat -222px -232px;
+}
+
+.tableIn{
+    margin: 30px auto 0px;
+    display: none;
+    width: 970px;
+}
+.tableIn tr td{
+     border:solid #EAEDF1 1px;
+     font-size: 14px;
+     color: #666;
+}
+.next{
+	display: block;
+	width:149px;
+	height: 40px;
+	margin-top:30px;
+	background: url(../images/next.png) no-repeat;
+}
+
+
+* {
+    box-sizing: border-box;
+  
+}
+
+.alert_close {
+  width: 23px;
+  height: 23px;
+  
+}
+.info{
+	color: #333;
+	line-height: 23px;
+	margin-top: 10px;
+	position: relative;
+}
+.info p{
+	margin: 4px 0px;
+	font-size: 14px;
+}
+.info p.n1{
+	color: #000;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.info p em{
+	font-style: normal;
+	color: #02adea;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.shiliImg{
+	display:none;
+	position: absolute;
+	top:-260px;
+	left: 190px;
+	width: 590px;	
+	border: #ccc solid 1px;
+	border-radius:4px;
+	background: #fff;
+}
+.shiliImg img{
+	display: block;
+	margin:10px auto;
+	width: 580px;
+}
+.info p em:hover .shiliImg{
+	display: block;
+}
+.moreBank{
+    width: 876px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    background:url(../images/down.png) no-repeat center center #F0F0F0;
+    margin: 10px auto 0px;
+    cursor: pointer;
+}
+.subChongzhi{
+    width: 300px;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 50px auto 0px;
+    cursor: pointer;
+}
+.kahaoDiv p.errorP {
+    color: #ff8574;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.errorBank {
+    color: #ff8574;
+    line-height: 30px;
+    text-align: center;
+}
+.tishi{
+    width: 970px;
+    margin: 40px auto;
+    border-top: dashed #DCDCDC 1px;
+    padding-top: 20px;
+}
+.tishi ul{
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.tishi ul li{
+    width: 200px;
+    float: left;
+    padding: 4px 4px;
+    margin:5px 8px 4px 6px;
+    border: solid 1px #ccc;
+}
+.tishi ul li img{
+    height: 20px;
+}
+.tishi p{
+    line-height: 20px;
+    margin-top: 7px;
+    color: #999999;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.tishi a{
+    color: #02adea;
+}
+.tishi a:hover{
+    text-decoration: underline;
+}

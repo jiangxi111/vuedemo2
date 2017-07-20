@@ -1,0 +1,145 @@
+.allZhican{
+    background: url(../images/all.png) no-repeat center top;
+    width: 820px;
+    height: 95px;
+    line-height: 85px;
+    margin: 20px auto 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.allZhican span{
+    font-size: 24px;
+}
+.yidong{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    margin: 50px 10px 10px 40px;
+    float: left;
+    overflow: hidden;
+}
+.yidong p{
+    position: absolute;    
+}
+.yidong p.yuan1{
+    top: 10px;
+    left: 10px;
+    width: 97px;
+    height: 77px;
+    background: url(../images/yuan1.png) no-repeat center top;
+}
+.yidong p.yuan2{
+    top: 10px;
+    left: 105px;
+    width: 97px;
+    height: 77px;
+    background: url(../images/yuan2.png) no-repeat center top;
+}
+.yidong p.yuan3{
+    top: 80px;
+    left: 150px;
+    width: 57px;
+    height: 133px;
+    background: url(../images/yuan3.png) no-repeat center top;
+}
+.yidong p.yuan4{
+    top: 171px;
+    left: 47px;
+    width: 118px;
+    height: 41px;
+    background: url(../images/yuan4.png) no-repeat center top;
+}
+.yidong p.yuan5{
+    top: 80px;
+    left: 4px;
+    width: 58px;
+    height: 113px;
+    background: url(../images/yuan5.png) no-repeat center top;
+}
+.xiangmuList{
+    width: 500px;
+    float: right;
+    margin-top: 70px;
+}
+.xiangmuList li{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    color: #999999;
+    font-size: 16px;
+}
+.xiangmuList li a{
+    color: #666;
+    font-size: 14px;
+}
+
+.xiangmuList li.xianghover a{
+    color: #333333;
+    font-size: 16px;
+}
+.xiangmuList li.xianghover b{
+    color: #50CAF5;
+}
+.xiangmuList li.xianghover i{
+    background: #50CAF5;
+}
+.xiangmuList li i{
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #DCDCDC;
+    margin-top: 15px;
+}
+.xiangmuList li span{
+    display: block;
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+}
+.xiangmuList li em{
+    display: block;
+    float: left;
+    width: 100px;
+}
+.xiangmuList li b{
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+.xiangmuList li p{
+    display: block;
+    float: left;
+}
+.zhongTouzhi{
+    width: 805px;
+    height: 120px;
+    margin: 20px auto;
+    border:dashed #DCDCDC 1px;
+    border-radius: 10px;
+}
+.numlaber{
+    float: left;
+    width: 240px;
+    text-align: center;
+}
+.numlaber h3{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999999;
+}
+.numlaber p{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #57d2be;
+}
+.huhao{
+    float: left;
+    width: 40px;
+    font-size: 24px;
+    color: #999999;
+    margin-top: 40px;
+    text-align: center;
+}

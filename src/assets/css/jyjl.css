@@ -1,0 +1,57 @@
+.rowRight dl dt p.leixing{
+    width: 28%;
+}
+.rowRight dl dt p.xiangmu {
+    width: 15%;
+    float: right;
+}
+.rowRight dl dt p.statelast{
+    width: 12%;
+    +width: 11% !important;
+    text-align: center;
+}
+.rowRight dl dt p.state{
+    width: 19%;
+    +width: 18% !important;
+}
+.rowRight dl dd p.timeCon {
+    width: 23%;
+}
+.rowRight dl dd p.jineCon {
+    width: 20%;
+    color: #333;
+}
+.rowRight dl dd p.jineCon .k1{
+    color: #57d2be;
+}
+.rowRight dl dd p.jineCon .k2{
+    color: #ff8574;
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 28%;
+}
+.rowRight dl dd p.leixingCon {
+    width: 15%;
+    float: right
+}
+.rowRight dl dd p.nopaid {
+    width: 12%;
+    text-align:center;
+    
+}
+.rowRight dl dd p.stateCon{
+    width: 19%;
+    +width: 17% !important;
+    color: #02adea;
+}
+.topMenu p{
+    float: right;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.topMenu p span{
+    color: #ff8574;
+    font-size: 24px;
+}

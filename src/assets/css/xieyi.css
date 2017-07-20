@@ -1,0 +1,38 @@
+.doc_main {
+    color: #7d7d7d;
+    width: 1010px;
+    margin: 20px auto;
+    border: solid #DCDCDC 1px;
+    min-height: 500px;
+    background: #fff;
+}
+.cont_pre {
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+     width: 970px;
+    margin: 0px auto;
+
+}
+.cont_pre h3{
+    width: 1010px;
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    border-bottom: solid #02ADEA 1px;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+.doc_main .cont_pre {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "微软雅黑";
+}
+.doc_list {
+    margin-left: -24px;
+    min-height: 500px;
+    padding: 38px 0;
+}
+.doc_list table .tr td {
+    padding-left: 32px;
+}

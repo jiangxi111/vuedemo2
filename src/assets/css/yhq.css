@@ -1,0 +1,187 @@
+.rowRight ul{
+    width: 820px;
+    margin-left: 20px;
+
+}
+.rowRight ul li{
+    overflow: hidden;
+    clear: both;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 820px;
+    border-bottom: dashed #DCDCDC 1px;
+}
+.rowRight ul li:last-of-type{
+    border-bottom: none;
+}
+.rowRight ul.yhq li .yhqDiv{   
+    width: 180px;
+    cursor: pointer;
+    margin-left: 15px;
+    float: left;
+}
+.rowRight ul.yhq li .yhqDiv i{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #999;
+}
+.rowRight ul.yhq li .yhqBg{
+    background: url(../images/yhqBg.png) no-repeat center top;
+    width: 180px;
+    height: 120px;
+}
+.rowRight ul.yhq li .yhqBg span{
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+    margin-top: 40px;
+    color: #ff8574;
+    font-size: 18px;
+}
+.rowRight ul.yhq li .yhqBg p{
+    display: inline-block;
+    width: 68px;
+     margin-top:43px;
+     text-align: right;
+     font-size: 30px;
+     color: #ff8574;
+}
+.rowRight ul.yhq li .yhqBg em{
+    display: inline-block;
+    width: 16px;
+     margin-top: 40px;
+     font-size: 14px;
+     color: #333333;
+}
+.wdhb  li .state{
+    width: 185px;
+    margin-left: 30px;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.yhq  li .state{
+    width: 165px;
+    margin-left: 30px;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.rowRight ul li .state .h2{
+    margin-top: 13px;
+}
+.rowRight ul.yhq li .state .nameBox{
+    margin-top: 0px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.rowRight ul.yhq li .state .nameBox .nameTit{
+    float: left;
+    width: 45px;
+}
+.rowRight ul.yhq li .state .nameBox .nameCon{
+    float: left;
+    width: 100px;
+}
+.rowRight ul.yhq li .state .pass{
+    margin-top: 14px;
+    overflow: hidden;
+}
+.rowRight ul.yhq li .state .pass em{
+    display:inline-block;
+    font-style: normal;
+}
+.rowRight ul.yhq li .state .pass i{
+    display:inline-block;
+    font-style: normal;
+}
+.rowRight ul.yhq li .state .pass span{
+    display:inline-block;
+    width: 165px;
+    margin-top: 5px;
+}
+
+
+.rowRight ul.wdhb li .haobao{
+    width: 120px;
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.rowRight ul.wdhb li .haobao img{
+     width: 120px;
+    height: 140px;
+    display: block;
+}
+.rowRight ul.wdhb li .haobao em{
+    line-height: 20px;
+    text-align: center;
+    width: 120px;
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.rowRight ul.wdhb li h3{
+    font-size: 14px;
+}
+.rowRight ul.wdhb li .priceDiv{
+    margin-top: 7px;
+}
+.rowRight ul.wdhb li .priceDiv span{
+    font-size: 24px;
+    color: #ff8574;
+}
+.rowRight ul.wdhb li .tuijian{
+    margin-top: 16px;
+}
+.rowRight ul.wdhb li .tuijian span{
+    font-size: 24px;
+    color: #ff8574;
+}
+.rowRight ul.wdhb li .youxiaoqi{
+    margin-top: 10px;
+}
+.rowRight ul.wdhb li .zhuangtai{
+    margin-top: 14px;
+}
+.column{
+    float: left;
+    overflow: hidden;
+    width: 380px;
+    height: 180px;
+}
+#usePop,#yhqPop {
+    background: #fff;
+    display: none;
+    min-height: 300px;
+    position: fixed !important;
+    top: 10%;
+    width: 500px;
+    z-index: 100001;
+}
+.titPop {
+    border-bottom: 1px solid #02adea;
+    color: #333333;
+    font-size: 16px;
+    height: 36px;
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 94%;
+}
+.hbtext{
+    width: 92%;
+    margin: 15px auto 10px;
+    line-height: 21px;
+}
+.columnar{
+     float: left;
+    overflow: hidden;
+    width: 390px;
+    height: 150px;
+}

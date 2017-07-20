@@ -1,0 +1,39 @@
+.boxCard{
+    width: 980px;
+    overflow: hidden;
+    margin: 40px auto;
+}
+.boxCard ul li{
+    width: 280px;
+    float: left;
+    margin: 0px 20px;
+}
+.boxCard dl dd{
+    width: 100%;
+    height: 20px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+.boxCard dl dd p{
+    float: left;
+    font-size: 14px;
+    color: #999999;
+}
+.boxCard dl dd span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+.boxCard a{
+    display: block;
+    width: 230px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    background: #02adea;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 25px;
+}

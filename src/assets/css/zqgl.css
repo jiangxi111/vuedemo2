@@ -1,0 +1,112 @@
+.commentBox{
+    width: 800px;
+    margin: 0px auto;
+    overflow: hidden;
+    background: #50CAF5;
+    height: 170px;
+    margin-top: 23px;
+}
+.columOne{
+    width: 770px;
+    margin: 0px auto;
+    height: 70px;
+    margin-top: 20px;
+    border-bottom: solid #fff 1px;
+    overflow: hidden;
+}
+.columTwo{
+     width: 770px;
+    margin: 0px auto;
+    height: 65px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.comMenoy{
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 240px;
+}
+.comMenoy p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.comMenoy span{
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial;
+}
+.comMenoy em{
+    color: #fff;
+    font-size: 18px;
+}
+.downIcon{
+    background: url(../images/downIcon.png) no-repeat center top;
+    width: 14px;
+    height: 5px;
+    margin: 0px auto;
+}
+.topMenu form{
+    display: block;
+    margin-top: 7px;
+    width: 610px;
+    position: relative;
+    margin-left: 10px;
+}
+.topMenu form .searText{
+    display: block;
+    margin-top: 7px;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    border:solid 1px #DCDCDC;
+    padding-left: 10px;
+    float: left;
+}
+.subSearch{
+   margin-top: 7px;
+  float: left;
+  margin-left: 15px;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius:6px;
+  font-size: 14px;
+  background: #02ADEA;
+  color: #fff;
+  cursor: pointer;
+}
+.topMenu{
+    margin-top: 20px;
+}
+.rowRight dl dt p.time {
+    width: 17%;
+}
+.rowRight dl dd p.timeCon {
+    width: 17%;
+    color: #02adea;
+}
+.rowRight dl dt p.jine {
+    width: 29%;
+}
+.rowRight dl dd p.jineCon {
+    color: #333333;
+    width: 29%;
+}
+.rowRight dl dd p.jineCon a:hover{
+    color: #02adea;
+}
+.rowRight dl dt p.xiangmu {
+    width: 22%;
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 22%;
+}
+.rowRight dl dt p.leixing {
+    width: 19%;
+}
+.rowRight dl dd p.leixingCon {
+    width: 19%;
+}

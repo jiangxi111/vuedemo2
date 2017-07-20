@@ -1,0 +1,162 @@
+.loginCon{
+    width: 1010px;
+    overflow: hidden;
+    min-height: 710px;
+    margin: 50px auto;
+}
+.leftImg{
+    width: 505px;
+   
+    float: left;
+    margin-top: 10px;
+}
+.rightLogin{
+    overflow: hidden;
+    float: right;
+    width: 450px;
+    border: solid #E1E1E1 1px;
+    padding: 27px 0px 30px;
+    background: #fff;
+}
+.loginTit{
+    width: 410px;
+    margin: 0px auto;
+    height: 33px;
+    border-bottom: dashed #E1E1E1 1px;
+}
+.loginTit span{
+    display: block;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.loginTit a{
+    display: block;
+    float: right;
+    font-size: 14px;
+    color: #ff8574;
+    margin-right: 13px;
+    line-height: 33px;
+}
+.rightLogin ul {
+    width: 372px;
+    margin: 20px auto 0px;
+}
+.rightLogin ul li{
+    clear: both;
+    overflow: hidden;
+    min-height: 80px;
+}
+.rightLogin ul li input.userNamephone,.rightLogin ul li input.passWord{
+    display: block;
+    width: 370px;
+    height: 50px;
+    border:solid #E1E1E1 1px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.rightLogin ul li input.code{
+    display: block;
+    width: 230px;
+    height: 50px;
+    border:solid #E1E1E1 1px;
+    padding-left: 10px;
+    font-size: 14px;
+    float: left;
+}
+.rightLogin ul li .codeBt{
+    display: block;
+    height: 47px;
+    float: right;
+    background: #A7A7BC;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.rightLogin ul li label{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+   
+}
+.rightLogin ul li label input{
+    margin-right: 4px;
+}
+.rightLogin ul li .forgetPass{
+    display: block;
+    float: right;
+    margin: 15px 0px 0px;
+    font-size: 16px;
+    color: #02adea;
+    text-decoration: underline;
+}
+.rightLogin ul li .subLogin{
+    display: block;
+     width: 370px;
+    height: 50px;
+    background: #02ADEA;
+    border:none;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 3px;
+    margin-left: 1px;
+    border-radius:5px;
+}
+.rightLogin ul li .regUrl{
+	float: left;
+	margin-top:15px;
+	font-size: 16px;
+	width: 200px;
+}
+.rightLogin ul li .regUrl a{
+	color:#ff8574;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.rightLogin ul li .subLogin:focus,
+.rightLogin ul li .subLogin:active,
+.rightLogin ul li .forgetPass:focus,
+.rightLogin ul li .forgetPass:active
+
+{
+    outline:#0000FF dotted thin;
+}  
+
+
+.rightLogin ul li p.errorP{
+    color: #ff8574;
+    margin-top: 4px;
+}
+.InputDiv{
+    overflow: hidden;
+    clear: both;   
+}
+.yellow_notice{
+	 color: #ff8574;
+    margin-top: 4px;
+}
+
+/*左右轮播*/
+.luara-left{position:relative;padding:0;overflow: hidden;}
+.luara-left ul{position: relative;padding: inherit;margin: 0;}
+.luara-left ul li{float: left;padding: inherit;margin: inherit;list-style: none;
+text-align: center;}
+.luara-left ul li img{width: 300px;height: 300px;}
+
+.example2{}
+.example2 ol{position:relative;width: 180px;height: 20px;top:-30px;left:190px;}
+.example2 ol li{
+    float:left;
+    width: 10px;
+    height: 10px;
+    margin: 5px 14px;
+    border:solid #02ADEA 1px;
+    border-radius: 50%;
+}
+.example2 ol li.seleted{background: #02ADEA;}
+.messageError{
+	width: 100%;
+	float: left;
+	height: 30px;
+    
+}

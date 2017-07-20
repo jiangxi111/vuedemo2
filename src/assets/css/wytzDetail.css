@@ -1,0 +1,314 @@
+.marTit{
+    width: 100%;
+    min-width: 1010px;
+    border-bottom: solid #DCDCDC 1px;
+    overflow: hidden;
+}
+.marCon{
+    width: 1010px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.marConLeft{
+    width: 635px;
+    height: 310px;
+    border-right: dashed #DCDCDC 1px;
+    overflow: hidden;
+    float: left;
+}
+.nameInfo{
+    margin-top: 10px;
+}
+.nianlilv{
+    width: 615px;
+    padding-bottom: 6px;
+    border-bottom: dashed #DCDCDC 1px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+.nianlilv .xinxi{
+    float: left;
+    
+}
+.nianlilv .xinxi:last-child{
+    margin-right: 0px;
+}
+.nianlilv .xinxi span{
+    display: block;
+    float: left;
+    padding-right: 15px;
+    line-height: 35px;
+    color: #999999;
+    font-size: 14px;
+}
+.nianlilv .xinxi p{
+    float: left;
+    color: #02adea;
+    font-size: 24px;
+    
+}
+.nianlilv .xinxi p.k2{
+    min-width: 170px;
+}
+.nianlilv .xinxi p.k3{
+    min-width: 60px;
+
+}
+.nianlilv .xinxi p.k1{
+    font-size: 32px;
+    margin-top: -6px;
+    min-width: 85px;
+
+    margin-right: 15px;
+}
+.marConLeft ul li{
+    margin-top: 13px;
+    font-size: 14px;
+}
+.marConLeft ul li.tiexi{
+    color: #02adea;
+}
+.marConLeft ul li .detail{
+    color: #ff974f;
+}
+.marConLeft ul li .detail:hover{
+    text-decoration: underline;
+}
+.marConLeft ul li.tiexi a{
+    margin-left: 20px;
+    color: #ff974f;
+}
+
+.marConLeft ul li.tiexi a:hover,.marConLeft ul li.tishi a:hover{
+    text-decoration: underline;
+}
+.marConLeft ul li.tishi{
+    font-size: 12px;
+    color: #ee2444;
+}
+.marConLeft ul li.tishi a{
+    color: #ee2444;
+}
+.marConRight{
+    width: 360px;
+    float: right;
+}
+.marConRight .ketou{
+    width: 360px;
+    height: 105px;
+    border-bottom: dashed #DCDCDC 1px;
+}
+.comCfur{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ketoujine{
+    float: right;
+    text-align: right;
+    margin-top: 19px;
+}
+.ketoujine p{
+    font-size: 14px;
+
+}
+.ketoujine p span{
+    font-size: 24px;
+    color: #02adea;
+    margin-right: 3px;
+}
+.marConRight ul{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.marConRight ul li{
+    clear: both;
+    overflow: hidden;
+    min-height: 30px;
+   position: relative;
+}
+.marConRight ul li span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    margin-left: 20px;
+}
+.marConRight ul li b{
+    display: block;
+    float: right;
+    color: #999;
+}
+.marConRight ul li a{
+    display: block;
+    float: right;
+    font-size: 14px;
+    color: #fb8559;
+    margin-right: 5px;
+    text-decoration: underline;
+}
+.marConRight ul li em{
+    display: block;
+    float: right;
+    margin-right: 25px;
+    font-size: 14px;
+    color: #333333;
+}
+.marConRight ul li input.goumai{
+    display: block;
+    float: left;
+    height: 25px;
+    width: 140px;
+    padding-left: 10px;
+    border: 1px solid #e1e1e1;
+}
+.shuru{
+    float: right;
+}
+.danwei{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+.priceJian{
+    float: left;
+    margin-right: 5px;
+    font-size: 25px;
+    color: #666;
+    line-height: 20px;
+    cursor: pointer;
+}
+.priceAdd{
+    float: left;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #666;
+    line-height: 20px;
+    cursor: pointer;
+}
+.marConRight ul li p.errorP {
+    color: #ff8574;
+    text-align: right;
+    margin-right: 28px;
+    line-height: 20px;
+    
+}
+.zhanghuyue{
+    color: #999;
+}
+.marConRight ul li .shouyi{
+    float: right;
+    margin-right: 25px;
+}
+.subshouyi{
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.shouyiPrice{
+    color:#ee2444; 
+}
+
+
+
+.apply{width:1086px;margin:20px auto 0 auto; overflow: hidden; height: 270px;}
+.apply_array{border:#cdcdcd 1px solid;width:310px;float:left;height:220px;margin:0px 12px 0px 12px;}
+.apply_array .vote{position:absolute;line-height:26px;margin-top:10px;padding-left:29px;width:83px;display:block;background:url(imgs/vote.gif) no-repeat 0px 0px;height:26px;color:#282828;margin-left:-6px;text-decoration:none;}
+.apply_last{margin-right:0px}
+.apply_img{text-align:center;width:100px;display:table-cell;background:#e2e2e2;height:100px;font-size:95px;vertical-align:middle}
+.apply_array a{text-decoration:underline}
+.apply_array a:hover{color:#e01111}
+.apply_info{text-align:center;padding:15px;}
+.apply_comment{text-align:center}
+.apply_info a{line-height:17px;font-weight:700}
+.apply_nav{position:relative;width:1010px;float:left;height:260px;overflow:hidden;border:solid #DCDCDC 1px; margin-left: 2px;}
+.apply_w{position:absolute;margin-top:18px;width:1000px;float:left;left:0px}
+.apply .img_l{
+    background: url(../images/left.png) no-repeat center center;
+    height: 260px;
+    width: 36px;
+    float:left;
+    cursor:pointer;
+}
+.apply .img_l:hover{
+    background: url(../images/leftHover.png) no-repeat center center;
+}
+.apply .img_r{
+    background: url(../images/right.png) no-repeat center center;
+    height: 260px;
+    width: 36px;
+    float:left;
+    cursor:pointer;
+}
+.apply .img_r:hover{
+    background: url(../images/rightHover.png) no-repeat center center;
+}
+.xiangmuInfo{
+    width: 1010px;
+    margin: 10px auto 80px;
+    overflow: hidden;
+    border:solid #DCDCDC 1px;
+    min-height: 600px;
+}
+.xiangmuInfo h1{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+   
+    color: #333333;
+    text-indent: 40px;
+    background: #EBEBEB;
+}
+.InfoCon{
+    width: 970px;
+    margin: 0px auto 30px;
+}
+.InfoCon h2{
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    border-bottom: solid #DCDCDC 1px;
+    text-indent: 20px;
+    color: #333333;
+    margin-bottom: 13px;
+}
+.InfoCon p{
+    margin-left: 40px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.InfoCon dl dt{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid #DCDCDC 1px;
+    margin-top: 15px;
+}
+.InfoCon dl dt span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    width: 230px;
+    margin-left: 30px;
+}
+.InfoCon dl dd{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: dashed #DCDCDC 1px;
+}
+.InfoCon dl dd span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    width: 230px;
+    margin-left: 30px;
+}

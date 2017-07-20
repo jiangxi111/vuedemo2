@@ -1,0 +1,72 @@
+.hzjg{
+    margin: 20px auto;
+    min-height: 700px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border: solid #DCDCDC 1px;
+    width: 1010px;
+    background:#fff;
+}
+
+.hzjg .tit{
+    width: 970px;
+    margin: 20px auto 0px;
+    line-height: 35px;
+    height: 35px;
+    text-align: left;
+    font-size: 14px;   
+    color: #333333;
+    margin-left: 35px;
+}
+.ldlogo{
+    display: block;
+    margin: 6px 30px;
+}
+.hzjgCon{
+    width: 930px;
+    margin: 0px auto;
+}
+.hzjgCon p{
+    line-height: 26px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.hzjgCon p span{
+    color: #333;
+    font-weight: bold;
+}
+.hzjgCon p a{
+    color: #02adea;
+}
+.hzjgCon p a:hover{
+    text-decoration: underline;
+}
+.hzjgCon h3{
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.img1{
+    display: block;
+    float: left;
+}
+.con1{
+    float: right;
+    width: 620px;
+    margin-top: 25px;
+}
+.img2{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+.con2{
+    float: left;
+    width: 530px;
+    margin-top: 25px;
+}
+.secImg{
+    overflow: hidden;
+    margin-top: 40px;
+}

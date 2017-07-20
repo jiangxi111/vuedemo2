@@ -1,0 +1,79 @@
+.selectDiv{
+    width: 100%;
+    border-bottom: 1px solid #DCDCDC;
+    height: 210px;
+    min-width: 1010px;
+    background:#fff;
+    overflow: hidden;
+}
+.selectMar{
+    margin: 0 auto;
+    width: 1010px;
+    overflow: hidden;
+}
+.selectTit{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid #02ADEA 1px;
+    padding: 15px 0px 6px;
+    margin-bottom: 15px;
+}
+.selectTit p{
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+.selectTit form{
+    display: block;
+    float: right;
+    width: 252px;
+    height: 32px;
+    position: relative;
+}
+.selectTit form .searchPro{
+    width: 250px;
+    height: 30px;
+    border-radius: 13px;
+    display: block;
+    border:solid #E1E1E1 1px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #999999;
+
+}
+.selectTit form .btsearch{
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    width: 21px;
+    height: 21px;
+    background: url(../public/commonImg/icon.png) no-repeat 0px -319px;
+    cursor: pointer;
+}
+.selectMar .tijiao{
+    clear: both;
+    overflow: hidden;
+    margin: 15px 0px 10px 10px;
+}
+.selectMar .tijiao p{
+    float: left;
+    width: 94px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999999;
+}
+.selectMar .tijiao a{
+    display: block;
+    float: left;
+    padding: 3px 10px;
+    border-radius: 13px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.selectMar .tijiao a.clickSelect,.selectMar .tijiao a:hover{
+    background: #02ADEA;
+    color: #fff;
+}

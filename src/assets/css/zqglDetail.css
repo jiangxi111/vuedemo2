@@ -1,0 +1,131 @@
+.commentBox{
+    width: 800px;
+    margin: 0px auto;
+    overflow: hidden;
+    background: #50CAF5;
+    height: 90px;
+    margin-top: 23px;
+}
+.proName{
+    float: left;
+    margin-left: 35px;
+    max-width: 330px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+.comm{
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.fristComm{
+    height: 50px;
+    min-width: 220px;
+   
+}
+.fristComm span{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.secComm{
+    padding-left: 50px;
+    width: 220px;
+    border-left: solid 1px #fff;
+}
+.threeComm{
+    width: 170px;
+}
+.applay{
+    display: inline-block;
+    background: #F34653;
+    padding: 5px 13px;
+    border-radius: 15px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.comm p{
+     color: #fff;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.comm span{
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial;
+}
+.threeComm span{
+    font-size: 20px;
+}
+.statePro{
+    float: left;
+    margin-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #ee2444;
+    font-size: 14px;
+}
+.topMenu{
+    margin-bottom: 20px;
+}
+.topMenu h3 {
+    color: #333333;
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 15px;
+}
+.rowRight dl dt p.time {
+    width: 17%;
+}
+.rowRight dl dd p.timeCon {
+    width: 17%;
+    color: #02adea;
+}
+.rowRight dl dt p.jine {
+    width: 13%;
+}
+.rowRight dl dd p.jineCon {
+    color: #333333;
+    width: 13%;
+}
+.rowRight dl dd p.jineCon a:hover{
+    color: #02adea;
+}
+.rowRight dl dt p.xiangmu {
+    width: 18%;
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 18%;
+}
+.rowRight dl dt p.leixing {
+    width: 22%;
+}
+.rowRight dl dd p.leixingCon {
+    width: 22%;
+}
+.rowRight dl dt p.state{
+    width: 17%;
+    text-align: left;
+}
+.rowRight dl dd p.stateCon{
+    width: 17%;
+    text-align: left;
+}
+.rowRight dl dt p.caozuo{
+    width: 13%;
+}
+
+.rowRight dl dd p.caozuoCon{
+    width: 13%;
+}
+.rowRight dl dd p.caozuoCon a{
+    color: #02adea;
+    text-decoration: underline;
+}

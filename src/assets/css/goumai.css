@@ -1,0 +1,234 @@
+.fukuan {
+	width: 1010px;
+	margin: 20px auto 200px;
+	height: 520px;
+	border: solid #DCDCDC 1px;
+	background: #fff;
+}
+
+.fukuan .tit {
+	width: 970px;
+	margin: 0px auto;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: solid #02ADEA 1px;
+	font-size: 16px;
+	color: #333333;
+	text-indent: 10px;
+	margin-top: 10px;
+}
+
+.fukuan .tit em {
+	display: block;
+	float: left;
+}
+
+.fukuan .tit img {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.fukuanCon {
+	width: 360px;
+	margin: 90px auto 0px;
+}
+
+.fukuanCon p {
+	overflow: hidden;
+	clear: both;
+	margin-top: 40px;
+}
+
+.fukuanCon p span {
+	display: block;
+	width: 75px;
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	font-size: 14px;
+	color: #999999;
+}
+
+.fukuanCon p i {
+	display: block;
+	width: 270px;
+	line-height: 22px;
+	float: left;
+	font-size: 14px;
+	color: #333333;
+}
+
+.xiayibu {
+	display: block;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.goumaiSuc {
+	width: 440px;
+	margin: 90px auto 200px;
+	min-height: 520px;
+	overflow: hidden;
+}
+
+.sucBt {
+	
+}
+
+.goumaiSuc h4 {
+	text-align: center;
+	font-size: 24px;
+	color: #333333;
+	line-height: 50px;
+	margin-top: 30px;
+}
+
+.goumaiSuc dl {
+	width: 330px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.goumaiSuc dl dd {
+	line-height: 25px;
+	margin-top: 6px;
+	color: #333333;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.goumaiSuc dl dd em {
+	float: left;
+	width: 70px;
+}
+
+.goumaiSuc dl dd p {
+	float: left;
+	width: 260px;
+}
+
+.btDiv {
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.btLeft {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+	background: #02ADEA;
+}
+
+.btRight {
+	display: block;
+	float: right;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+	background: #FF8574;
+}
+
+.errorForm {
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	color: #ff8574;
+	margin-top: 30px;
+}
+
+#wangyinPop {
+	width: 450px;
+	height: 280px;
+	display: none;
+	position: fixed !important;
+	top: 50%;
+	margin-top:-140px;
+	z-index: 100001;
+	background: #fff;
+}
+
+#wangyinPop h3 {
+	font-size: 14px;
+	color: #000;
+	margin: 10px 0px 10px 10px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+
+.conwy {
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.conwy .n1 {
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+
+.conwy .n2 {
+	font-size: 14px;
+	color: #000;
+	line-height: 20px;
+}
+
+.conwy .text {
+	width: 100%;
+	border: solid 1px #ccc;
+	height: 60px;
+	padding: 5px;
+	font-size: 14px;
+	color: #000;
+	margin-top: 10px;
+}
+
+.conwy .box {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.conwy .box .k1 {
+	display: block;
+	float: left;
+	width: 40%;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	background: #02adea;
+}
+
+.conwy .box .k2 {
+	display: block;
+	float: right;
+	width: 40%;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	background: #777;
+}

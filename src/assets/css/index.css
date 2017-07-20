@@ -1,0 +1,363 @@
+
+/*************Banner Begin********************/
+.banner{
+width: 100%;
+min-width:1003px;
+height: 405px;
+background-size: cover;
+}
+
+
+.list_lh{ height:200px; overflow:hidden;}
+
+
+.list_lh li p{ height:24px; line-height:24px;}
+
+
+.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center;}
+.top3_main{
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+}
+
+.gp_wrap{
+width: 100%;
+min-width: 1008px;
+height: 400px;
+line-height: 0;
+overflow: hidden;
+position: relative;
+}
+.guide_pic{
+position: absolute;
+left: 0;
+top:0;
+display: none;
+z-index: 1;
+cursor: pointer;
+height: 400px;
+width: 100%;
+}
+.gp_dot{
+margin-left: 8px;
+cursor: pointer;
+background: #ccc;
+display: inline-block;
+width: 45px;
+height: 5px;
+}
+.gp_dot_se{
+background: #02adea;
+}
+.gp_dot:first-child{
+margin-left: 0;
+}
+.gp_dot_wrap{
+text-align: center;
+margin: 370px auto 0;
+position: relative;
+z-index: 10;
+border-radius: 12px;
+width: 450px;
+height: 18px;
+line-height: 16px;
+}
+/*************Banner End********************/
+.Introduction{
+    width: 100%;
+    min-width: 1010px;
+  
+    padding: 10px 0px 12px;   
+    border-bottom: solid 1px #DCDCDC;
+    overflow: hidden;
+    background:#fff;
+}
+.topOneCon{
+    width: 1010px;
+    margin: 0px auto;
+    border-bottom: dashed 1px #ccc;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.topOneCon ul{
+    float: left;
+    width: 690px;
+    margin-top: 30px;
+}
+.topOneCon ul li{
+    float: left;
+    margin: 10px 0px;
+    width: 220px;
+    text-align: center;
+}
+
+.topOneCon ul li a{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(../public/commonImg/icon.png) no-repeat 0px -24px;
+    margin: 0px auto;
+}
+.topOneCon ul li a.n2{
+    background: url(../public/commonImg/icon.png) no-repeat -83px -24px;
+}
+.topOneCon ul li a.n3{
+    background: url(../public/commonImg/icon.png) no-repeat -165px -24px;
+}
+.topOneCon ul li a.n1:hover{
+    background: url(../public/commonImg/icon.png) no-repeat -165px -134px;
+}
+.topOneCon ul li a.n2:hover{
+    background: url(../public/commonImg/icon.png) no-repeat -246px -134px;
+}
+.topOneCon ul li a.n3:hover{
+    background: url(../public/commonImg/icon.png) no-repeat -327px -134px;
+}
+.topOneCon ul li p{
+    color: #999999;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.mediaCnt{
+    float: right;
+    width: 280px;
+} 
+.gonggao{
+    width: 1010px;
+    margin: 10px auto 0px;
+    overflow: hidden;
+}
+.gonggao h3{
+    float: left;
+    font-size: 14px;
+    color: #ed002e;
+    margin-top: 3px;
+}
+.gongList{
+    float: left;
+    color: #333333;
+    width: 400px;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+.shouyi{
+    float: right;
+}
+.shouyi p{
+    float: left;
+    font-size: 18px;
+    color: #02adea;
+    margin-left: 20px;
+}
+.shouyi p:first-child{
+    margin-left: 0px;
+}
+.shouyi p i{
+    font-size: 14px;
+    color: #999999;
+}
+
+
+
+.BreakingNewsController{width:400px; overflow:hidden; background:#FFF; height:20px; position:relative;}
+
+.BreakingNewsController ul{padding:0; margin:0; display:block; list-style:none; position:absolute; }
+.BreakingNewsController ul li{list-style:none; background:#fff;}
+.BreakingNewsController ul li a{text-decoration:none; color:#333; display:block;width: 400px; overflow:hidden;}
+
+
+.easing a, .easing span{transition:.25s linear; -moz-transition:.25s linear; -webkit-transition:.25s linear;}
+
+.coludeCode{
+    width: 100%;
+    min-width: 1063px;
+    background: #FF8574;
+    height: 100px;
+    margin-top: 30px;
+}
+.coludeCodeCon{
+    width: 1063px;
+    margin: 0px auto;   
+    height: 100px;
+    background:url(../images/code.png) no-repeat center top;
+}
+.newList{
+    width: 1010px;
+    margin: 30px auto;
+    overflow: hidden;
+    height: 260px;
+}
+.newListLeft{
+    overflow: hidden;
+    float: left;
+    width: 630px;
+    height: 250px;
+    border:solid 1px #E1E1E1;
+    background: #fff;
+}
+.newListRight{
+    overflow: hidden;
+    float: right;
+    width: 360px;
+    height: 250px;
+    border:solid 1px #E1E1E1;
+    background: #fff;
+}
+.newsCon{
+    margin: 0px auto;
+    overflow: hidden;
+    width: 590px;
+}
+.newsCon dl{
+    width: 100%;
+    height: 50px;
+    border-bottom:solid 1px #E1E1E1;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+.newTit{
+    height: 50px;
+    border-bottom:solid 1px #E1E1E1;
+    line-height: 50px;
+    margin:0px auto 10px;
+    width: 320px;
+    font-size: 16px;
+    color: #333333;
+
+}
+.newTit span{
+    display: block;
+    width: 85px;
+    height: 50px;
+    border-bottom: solid 3px #02ADEA;
+    text-align: center;
+}
+.newsCon dl dd{
+    float: left;
+    width: 190px;
+    text-align: center;
+}
+.newsCon dl dd a{
+    font-size: 16px;
+    color: #999999;
+}
+
+.newsCon dl dd.hoverNews a{
+    display: block;
+    height: 50px;
+    width: 90px;
+    margin: 0px auto;
+    border-bottom: solid 3px #02ADEA;
+    color: #333333;
+}
+.newsCon ul{
+    display: none;
+    float: left;
+}
+.newsCon ul.common{
+    display: block;
+}
+.newsCon ul li{
+    overflow: hidden;
+    margin: 5px auto;    
+    width: 570px;
+
+}
+.newsCon ul li a{
+     overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 570px;
+}
+.newsCon ul li a:hover i{
+    color: #02adea;
+}
+.newsCon ul li i{
+     overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    color: #999;
+    max-width: 365px;
+}
+.newsCon ul li b{
+	float: right;
+	display: block;
+	color: #999;
+}
+
+
+.newListRight ul li{
+    overflow: hidden;
+    margin: 5px auto;    
+    width: 320px;
+    border-bottom:dashed 1px #E1E1E1;
+}
+.newListRight ul li img{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius:50%;
+}
+.newListRight ul li p{
+     overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 160px;
+    margin-left: 10px;
+}
+.newListRight ul li p:hover{
+    color: #02adea;
+}
+.newListRight ul li i{
+     overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    color: #02adea;
+    width: 100px;
+}
+.Partners{
+     margin: 0px auto 30px;
+    overflow: hidden;
+    width: 1010px;
+}
+.parTit{
+    width: 65px;
+    height: 26px;
+    background:url(../public/commonImg/icon.png) no-repeat -328px 0px;
+    margin-bottom: 20px;
+}
+.Partners ul li{
+    
+    padding: 0px 0px;
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+

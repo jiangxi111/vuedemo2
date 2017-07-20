@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>vuedemo</title>
+
+    <!-- css页面引入 -->
+    <!-- <link rel="stylesheet" href="src/assets/css/animate.css"> -->
+
+    <!-- 
+      1.cnpm install vue-rouder --save
+		  2. cnpm install css-loader style-loader --save
+      3. webpack.config.js配置文件加入=============css-loader
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader' //顺序定死的
+      }
+      4. webpack.config.js配置文件加入=============file-loader==字体图标
+       {
+        test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+        loader: 'file-loader'
+      }
+      5. 如果需要less需要下载：cnpm  install less less-loader --save
+         webpack.config.js配置文件加入
+         {
+            test: /\.less$/,
+            loader: 'less-loader' //less-loader
+         }
+      6.安装vuex
+      7.url-loader
+     -->
+
+     <link rel="stylesheet" type="text/css" href="./src/assets/public/commonCss/bootstrap.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- jquery 页面引入法 -->
+    <script type="text/javascript" src="./src/assets/public/commconJs/jquery.min-1.9.js"></script>
+    <script type="text/javascript" src="./src/assets/public/commconJs/bootstrap.js"></script>
+    <script type="text/javascript" src="./src/assets/public/commconJs/public.js"></script>
+    <!-- 引入本地存储公用js -->
+    <script type="text/javascript" src="./src/assets/js/localStorage.js"></script>
+    <!-- 引入cookie -->
+    <script type="text/javascript" src="./src/assets/js/cookie.js"></script>
+    <script type="text/javascript" src="./dist/build.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+.lineBg{
+    width: 100%;
+    min-width: 1010px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:solid #DCDCDC 1px;
+    background: #fff;
+}
+.lineBg .loca{
+    width: 1010px;
+    margin: 0px auto;
+    color: #999999;
+}.tixianCon
+.lineBg .loca a{
+    color: #999999;
+}
+.lineBg .loca a:hover{
+    text-decoration: underline;
+}
+.lineBg .loca span{
+    color: #02adea;
+}
+.tixianCon{
+    width: 1010px;
+    margin: 20px auto 100px;
+    overflow: hidden;
+    height: 680px;
+    border:solid #DCDCDC 1px;
+    background: #fff;
+}
+.txTit{
+    margin: 10px auto 0px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: solid #02ADEA 1px;
+    color: #333;
+    font-size: 16px;
+    width: 970px;
+    padding-left: 10px;
+}
+.txTit p{
+    float: left;
+}
+.txTit .bankLogo{
+    display: block;
+    float: left;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+.txform{
+    width: 340px;
+    margin: 30px auto 0px;
+    overflow: hidden;
+}
+.txform ul li i {
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    text-align: right;
+    margin-right: 25px;
+}
+.txform ul li .conInput {
+    border: 1px solid #e1e1e1;
+    display: block;
+    float: left;
+    height: 40px;
+    padding-left: 10px;
+    width: 220px;
+}
+.txform ul li {
+    clear: both;
+    height: 60px;
+    overflow: hidden;
+}
+.txform ul li p.R1{
+     float: left;
+     height: 40px;
+     line-height: 40px;
+     font-size: 14px;
+     color: #333333;
+}
+.zfPrce{
+    color: #ff8574;
+}
+.tixianSub{
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.txform ul li p.errorP {
+    color: #ff8574;
+    margin-left: 115px;
+    margin-top: 4px;
+}
+.tishi{
+    width: 970px;
+    margin: 40px auto;
+    border-top: dashed #DCDCDC 1px;
+    padding-top: 20px;
+}
+.tishi p{
+    line-height: 20px;
+    margin-top: 5px;
+    color: #999999;
+    margin-left: 30px;
+}
+.tishi a{
+    color: #02adea;
+}
+.tishi a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.full_money{
+width: 320px;
+height: 303px;
+background: url(img/full_money.png) no-repeat 0 0;
+margin: 30px auto 0;
+}
+.full_hint{
+color: #010101;
+font-size: 18px;
+margin: 40px auto 22px;
+text-align: center;
+}
+.full_redirect{
+color: #a9a9a9;
+text-align: center;
+}
+.timer em{
+color: #d20;
+}

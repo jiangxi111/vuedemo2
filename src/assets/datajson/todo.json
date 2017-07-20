@@ -1,0 +1,10 @@
+[
+	{
+		"title":"便签内容1",
+		"select":true
+	},
+	{
+		"title":"便签内容2",
+		"select":false
+	}
+]

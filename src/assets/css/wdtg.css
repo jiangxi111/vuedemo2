@@ -1,0 +1,130 @@
+.rowRight dl dt p.time{
+    width: 29%;
+}
+.rowRight dl dt p.jine{
+    width: 23%;
+}
+.rowRight dl dt p.leixing{
+    width: 25%;
+}
+.rowRight dl dt p.xiangmu {
+    width: 18%;
+}
+.rowRight dl dt p.state{
+    width: 19%;
+    +width: 18% !important;
+}
+.rowRight dl dd p.timeCon {
+    width: 23%;
+}
+.rowRight dl dd p.jineCon {
+    width: 31%;
+    color: #333;
+}
+.rowRight dl dd p.xiangmuCon {
+    width: 20%;
+}
+.rowRight dl dd p.leixingCon {
+    width: 18%;
+}
+.rowRight dl dd p.stateCon{
+    width: 19%;
+    +width: 17% !important;
+    color: #02adea;
+}
+.topMenu p{
+    float: right;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.topMenu p span{
+    color: #ff8574;
+    font-size: 24px;
+}
+.shareCon{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.shareChannel{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.shareChannel .titLeft{
+    width: 100px;
+    text-align: right;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+}
+.shareRight{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.shareTit{
+    color: #999999;
+    line-height: 20px;
+}
+.copyHttp{
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+    width: 380px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 10px;
+    border:solid #ccc 1px;
+}
+.copyClick{
+    float: left;
+    color: #02adea;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 13px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.weixin1{
+    margin-top: 10px;
+}
+.shareList{
+    margin-top: 15px;
+}
+/* .shareList a{
+    display: block;
+    float: left;
+    margin-right: 5px;
+} */
+
+.jiathis_style {
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.jiathis_style div {
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#qrcodeTable{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin-top: 15px;
+}
+#codeico{
+    position:absolute;
+    width:40px; 
+    height:40px;
+    background: url(../public/commonImg/icon512.png) no-repeat;
+    background-size: 100%;
+    left: 50%;
+    top:50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}

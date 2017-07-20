@@ -1,0 +1,69 @@
+.topMenu h3{
+    line-height: 40px;
+    margin-left: 20px;
+    color: #333333;
+    font-size: 18px;
+    float: left;
+}
+.pingGu{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.pingGu .tit{
+    font-size: 14px;
+    color: #333333;
+}
+.pingGu .item{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.pingGu .item h4{
+    height: 15px;
+    line-height: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333333;
+    border-left: solid 3px #02ADEA;
+}
+.pingGu .item h5{
+    height: 15px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 25px;
+}
+.pingGu .item ul{
+     margin-left: 30px;
+     margin-top: 20px;
+     overflow: hidden;
+}
+.pingGu .item ul.heng li{
+    float: left;
+    width: 140px;
+}
+.pingGu .item ul li{    
+    cursor: pointer;
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+    background: url(../images/y1.png) no-repeat center left;
+    padding-left: 15px;
+}
+.pingGu .item ul li.addSel{
+    background: url(../images/y2.png) no-repeat center left;
+    color: #333333;
+}
+.pingGu .item ul.shu li{
+   margin-bottom: 13px;    
+}
+.tijiao{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 30px auto;
+    cursor: pointer;
+}

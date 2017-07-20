@@ -1,0 +1,51 @@
+{
+	"status":1,
+	"result":{
+		"totalMoney":0,
+		"list":[
+			{
+				"id":"001",
+				"name":"金士顿32g内存卡存储sd卡高速 行车记录仪tf卡 32g手机内存卡",
+				"price":10,
+				"num":1,
+				"img":"//img.alicdn.com/bao/uploaded/i7/TB1TeUWOpXXXXXkXpXXztw_8pXX_025206.jpg_b.jpg",
+				"parts":[
+					{
+						"partsId":"001-1",
+						"partsName":"打火机"
+					}
+				]
+			},
+			{
+				"id":"002",
+				"name":"金士顿32g内存卡存储sd卡高速 行车记录仪tf卡 32g手机内存卡",
+				"price":20,
+				"num":2,
+				"img":"//img.alicdn.com/bao/uploaded/i3/2091481210/TB2lE_GmFXXXXcRXXXXXXXXXXXX_!!2091481210.jpg_b.jpg",
+				"parts":[
+					{
+						"partsId":"002-1",
+						"partsName":"电池"
+					},
+					{
+						"partsId":"002-2",
+						"partsName":"钢笔"
+					}
+				]
+			},
+			{
+				"id":"003",
+				"name":"金士顿32g内存卡存储sd卡高速 行车记录仪tf卡 32g手机内存卡",
+				"price":30,
+				"num":4,
+				"img":"//img.alicdn.com/bao/uploaded/i4/TB1HOJbOFXXXXc1XXXXKSCPFFXX_093747.jpg_b.jpg",
+				"parts":[
+					{
+						"partsId":"003-1",
+						"partsName":"水杯"
+					}
+				]
+			}
+		]
+	}
+}

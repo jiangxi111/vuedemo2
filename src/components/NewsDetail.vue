@@ -1,0 +1,28 @@
+<template>
+<div>
+	<h3>{{$route.params}}</h3>
+	<h2>{{dateparams}}</h2>
+</div>
+</template>
+<script>
+	export default{
+		data(){
+			return{
+				dateparams:{}
+			}
+		},
+		mounted(){
+			this.getdata()
+		},
+		methods:{
+			getdata(){
+				this.dateparams=this.$route.params
+			}
+		},
+		watch:{
+			"$route"(to,from){
+				this.getdata()
+			}
+		}
+	}
+</script>

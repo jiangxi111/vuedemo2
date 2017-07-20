@@ -1,0 +1,70 @@
+.gywmCon dl.lxwm{
+    width: 1010px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: dashed #DEDEDE 1px;
+    margin-top: 10px;
+}
+.gywmCon dl.lxwm dt{
+    color: #333333;
+    font-size: 20px;
+    height: 70px;
+    line-height: 70px;
+}
+.gywmCon dl.lxwm dd{
+    line-height: 30px;
+    height: 30px;
+    color: #333333;
+    font-size: 14px;
+    padding-left: 30px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+.gywmCon dl.lxwm dd.k1{
+    font-size: 14px;
+    background: url(../images/k1.png) no-repeat center left;
+}
+.gywmCon dl.lxwm dd.k2{
+    background: url(../images/k2.png) no-repeat center left;
+    height: 60px;
+    line-height: 20px;
+    margin-top: -10px;
+}
+.gywmCon dl.lxwm dd.k2 p span{
+    font-size: 14px;
+}
+.gywmCon dl.lxwm dd.k3{
+    background: url(../images/k3.png) no-repeat center left;
+    font-size: 14px;
+}
+.gywmCon dl.lxwm dd.k4{
+    background: url(../images/k4.png) no-repeat center left;
+    line-height: 35px;
+}
+.gywmCon dl.lxwm dd.k2 .n1{
+    margin-top: 20px;
+}
+.erweiTit{
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+}
+.erweiTit span{
+    color: #02adea;
+}
+.erweiLx{
+    width: 1010px;
+    height: 350px;
+    background: url(../images/erweima.png) no-repeat center top;
+    border-bottom: dashed #DEDEDE 1px;
+}
+.mapCon{
+    width: 1010px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.mapCon .titMap{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+}

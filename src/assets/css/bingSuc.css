@@ -1,0 +1,83 @@
+.bingSuc{
+    width: 305px;
+    overflow: hidden;
+    margin: 110px auto;
+    min-height: 510px;
+}
+.bingSuc p.sucIcon{
+    background: url(../public/commonImg/icon.png) no-repeat -323px -31px;
+    width: 61px;
+    height: 61px;
+    margin: 0px auto;
+}
+.bingSuc h2{
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 30px;
+}
+.bingSuc h4{
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 70px;
+}
+.bingSuc a.btHover{
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #02ADEA;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+   
+}
+
+
+.bingSuc ul li{
+        line-height: 20px;
+    margin-top: 30px;
+   overflow: hidden;
+}
+.bingSuc ul li p{
+    width: 90px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    margin-left: 30px;
+}
+.bingSuc ul li em{
+    margin-left: 10px;
+    display: block;
+    width: 160px;
+    float: left;
+    font-size: 14px;
+}
+.contanRech{
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #FF8574;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    margin-top: 35px;
+}
+.buyProduct{
+    display: block;
+    margin: 0px auto;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #02ADEA;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 35px;
+    float: right;
+}

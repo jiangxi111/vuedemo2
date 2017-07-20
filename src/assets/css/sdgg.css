@@ -1,0 +1,131 @@
+ul.sdgg{
+    overflow: hidden;
+}
+ul.sdgg li{
+    clear: both;
+    overflow: hidden;
+    height: 55px;
+    border-bottom: dashed #DCDCDC 1px;
+    padding: 0px 20px;
+}
+ul.sdgg li a{
+    display: block;
+    float: left;
+    width: 80%;
+    height: 55px;
+    line-height: 55px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+ul.sdgg li a:hover{
+    color: #02ADEA;
+}
+ul.sdgg li span{
+    display: block;
+    text-align: right;
+    float: right;;
+    font-size: 14px;
+    color: #999999;
+    line-height: 55px;
+}
+.sdggDetail{
+    overflow: hidden;
+    width: 1010px;
+    margin: 0px auto;
+    border: solid #DCDCDC 1px;
+    margin-top: 20px;
+    padding: 30px 20px;
+    background: #fff;
+}
+.sdggDetail img{
+    clear: both;
+display: block;
+margin:auto; 
+}
+.sdggDetail .tit{
+    background: url(../images/tit.png) no-repeat center top;
+    width: 1010px;
+    height: 120px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.sdggDetail .tit h3{
+    height: 35px;
+    line-height: 35px;
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.sdggDetail .tit p.time{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+.sdggCon{
+    min-height: 500px;
+    padding: 30px 10px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+    text-indent: 25px;
+}
+.sdggCon pre{
+    overflow: hidden;
+    text-align: left;
+    white-space: pre-wrap;
+    width: 950px;
+    word-wrap: break-word;
+}
+.upDown{
+    width: 950px;
+    overflow: hidden;
+    margin: 10px auto 0px;
+    border-top: dashed #DCDCDC 1px;
+    padding-top: 20px;
+}
+.upDown .up{
+    width: 30%;
+    float: left;
+}
+.upDown .down{
+    width: 30%;
+    float: right;
+   
+}
+.upDown  span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    width: 18%;
+    height: 25px;
+    line-height: 25px;
+}
+.upDown  a{
+    display: block;
+    overflow: hidden;
+    width: 80%;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-size: 14px;
+    color: #02adea;
+}
+.upDown  a:hover{
+    text-decoration: underline;
+}
+.upDown .no span{
+    color: #666;
+}
+.upDown .no a{
+     color: #666;
+
+}

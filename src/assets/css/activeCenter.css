@@ -1,0 +1,55 @@
+.itemCon{
+    width: 1010px;
+    margin: 0px auto 40px;
+    overflow: hidden;
+    min-height: 730px;
+}
+.itemCon ul li{
+    overflow: hidden;
+    height: 220px;
+    margin-top: 20px;
+}
+.itemCon ul li .imgItem{
+    display: block;
+    float: left;
+    width: 600px;
+    height: 220px;
+}
+.rightInfo{
+    float: left;
+    width: 408px;
+    height: 220px;
+    border: solid 1px #DCDCDC;
+    padding-left: 30px;
+}
+.rightInfo .commn{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+.rightInfo .commn.n1{
+    color: #ee2444;
+}
+.rightInfo .commn.n2{
+    color: #57d2be;
+}
+.rightInfo .commn.n3{
+    color: #999999;
+}
+.rightInfo .name{
+    font-size: 24px;
+    color: #333333;
+}
+.rightInfo .info{
+    font-size: 18px;
+    color: #666666;
+    margin-top: 30px;
+}
+.rightInfo .time{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 17px;
+}

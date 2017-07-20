@@ -1,0 +1,100 @@
+.loca{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: dashed #DCDCDC 1px;
+}
+.gzMarCon{
+     background: url("../public/commonImg/bottom.png") repeat-x scroll center bottom;
+    margin:0px auto;
+
+    min-height: 800px;
+    min-width: 1010px;
+    overflow: hidden;
+    width: 100%;
+}
+.divpo{
+    position: relative;
+    width: 1280px;
+    margin: 0px auto;
+
+}
+
+.banner_index{height:450px;position: relative;overflow:hidden;width: 1010px;margin:20px auto;
+border:solid #DCDCDC 1px;}
+
+ .btn{
+    position: absolute;
+    top:205px;
+    width: 32px;
+    height: 80px;
+    display: block;
+    z-index: 3;
+    
+}
+a.btnPre{
+    left: 0px;
+    background: url(../images/left1.png) no-repeat center center;
+}
+a.btnPre:hover{
+    background: url(../images/left1Hover.png) no-repeat center center;
+}
+a.btnNext{
+    right: 0px;
+    background: url(../images/right1.png) no-repeat center center;
+}
+a.btnNext:hover{
+    background: url(../images/right1Hover.png) no-repeat center center;
+}
+
+/* .banner_index .btn,.banner_pro .bBtn{position: absolute;top:235px;width: 56px;height: 78px;display: block;z-index: 3;}
+.banner_index .btnPre,.banner_pro .bPre{background: url(../images/bg_btnPre_index.png) no-repeat 0 0;left:20px;}
+.banner_index .btnPre:hover,.banner_pro .bPre:hover{background: url(../images/bg_btnPre_index_hover.png) no-repeat 0 0;}
+.banner_index .btnNext,.banner_pro .bNext{background: url(../images/bg_btnNext_index.png) no-repeat 0 0;right: 20px;}
+.banner_index .btnNext:hover,.banner_pro .bNext:hover{background: url(../images/bg_btnNext_index_hover.png) no-repeat 0 0;} */
+
+
+.banner_index .banner_wrap{position: absolute;left:0px;top: 0px; z-index: 2;}
+.banner_index .banner_wrap li{width: 1230px;float: left;}
+.indexBanner_num{width:1000px;margin: 0 auto;padding:10px 0;text-align: center;} 
+.indexBanner_num .numlist{
+    cursor: pointer;
+    width: 83px;height: 113px;display: inline-block;_zoom:1;margin:0 60px;}
+.indexBanner_num .numlist span{
+    width: 83px;height: 113px;
+    display: block;
+}
+.indexBanner_num .numlist .num0{
+    background: url(../images/click0.png) no-repeat center center;
+}
+.indexBanner_num .numlist .num1{
+    background: url(../images/click1.png) no-repeat center center;
+}
+.indexBanner_num .numlist .num2{
+    background: url(../images/click2.png) no-repeat center center;
+}
+.indexBanner_num .numlist .num3{
+    background: url(../images/click3.png) no-repeat center center;
+}
+
+.indexBanner_num .on .num0{
+    background: url(../images/clickHover0.png) no-repeat center center;
+}
+.indexBanner_num .on .num1{
+    background: url(../images/clickHover1.png) no-repeat center center;
+}
+.indexBanner_num .on .num2{
+    background: url(../images/clickHover2.png) no-repeat center center;
+}
+.indexBanner_num .on .num3{
+    background: url(../images/clickHover3.png) no-repeat center center;
+}
+
+
+.indexBanner_num .on,.indexBanner_num .numlist:hover{}
+.numClick{
+    width: 100%;
+    min-width: 1010px;
+    border-bottom: solid #DCDCDC 1px;
+    height: 145px;
+    background: #fff;
+}

@@ -1,0 +1,156 @@
+.regMarCon{
+    width: 100%;
+    min-width: 1010px;
+    overflow: hidden;
+    min-height: 760px;
+    margin: 50px auto 0px;
+    background: url(../public/commonImg/bottom.png) repeat-x center bottom;
+}
+.errorPoReg{
+	background: #000;
+}
+.regcon{
+    overflow: hidden;
+    margin:0px auto;
+    width: 500px;
+    border: solid #E1E1E1 1px;
+    padding: 17px 0px 10px;
+    background: #fff;
+}
+.loginTit{
+    width: 460px;
+    margin: 0px auto;
+    height: 33px;
+    border-bottom: dashed #E1E1E1 1px;
+}
+.loginTit span{
+    display: block;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.loginTit a{
+    display: block;
+    float: right;
+    font-size: 14px;
+    color: #ff8574;
+    margin-right: 13px;
+    line-height: 33px;
+}
+.regcon ul {
+    width: 422px;
+    margin: 20px auto 0px;
+}
+.regcon ul li{
+    clear: both;
+    overflow: hidden;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+}
+.regcon ul li input{
+    border:solid #E1E1E1 1px;
+}
+.regcon ul li input.userName,.regcon ul li input.password,.regcon ul li input.passWordAgain,
+.regcon ul li input.phoneNum,.regcon ul li input.verCode,.regcon ul li input.recommendPhoneNo{
+    display: block;
+    width: 420px;
+    height: 40px;
+    
+    padding-left: 10px;
+    font-size: 14px;
+}
+.regcon ul li input.tuXingCode{
+    display: block;
+    width: 170px;
+    height: 40px;
+    border:solid #E1E1E1 1px;
+    padding-left: 10px;
+    font-size: 14px;
+    float: left;
+}
+.regcon ul li .codeBt{
+    display: block;
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left:10px;
+ 
+}
+.regcon ul li .codeBt img{
+	clear: both;
+	display: block;
+	width:100px;
+}
+.regcon ul li label{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+   
+}
+
+.regcon ul li .subReg{
+    display: block;
+     width: 420px;
+    height: 40px;
+    background: #02ADEA;
+    border:none;
+    font-size: 18px;
+    color: #fff;
+    border-radius:5px;
+}
+.regcon ul li p.errorP{
+    color: #ff8574;
+    margin-top: 4px;
+}
+.regcon ul li.xieyi a{
+    font-size: 14px;
+    color: #02adea;
+}
+.errorDiv{
+    overflow: hidden;
+    clear: both;   
+}
+.daojishi{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: #02adea;
+    text-decoration: underline;
+    font-size: 14px;
+    z-index: 2;
+    border:none;
+    background: inherit;
+}
+.errInfo{
+    color: #f3696e;
+}
+.yiyou{
+    float: right;
+    margin-right: 37px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #999999;
+}
+.yiyou a{
+    color: #ff8574;
+    margin-left: 9px;
+}
+.yiyou a:hover{
+    text-decoration: underline;
+}
+.checkSel {
+    background: url("../images/sel.png") no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+.errorForm{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #f3696e;
+}
